@@ -8,6 +8,7 @@ let package = Package(
     products: [
         .library(
             name: "AmitySDK",
+            type: .dynamic,
             targets: ["AmitySDK"]
         ),
     ],
